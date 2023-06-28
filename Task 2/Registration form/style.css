@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.hero{
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 90%;
+    width: 60%;
+    border: 2px solid gray;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px gray;
+}
+
+.banner{
+    height: 100%;
+    width: 50%;
+    background-image: url('form-v2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 0px 0px 10px;
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.reg{
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+form > div{
+    margin: 13px 0px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.check{
+    display: flex;
+    justify-content: start;
+}
